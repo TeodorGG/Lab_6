@@ -28,7 +28,7 @@ void Banca::addClient(Client *c) {
 
 }
 
-void Banca::giveCredit(int index, Credit c) {
+void Banca::giveCredit(int index, Credit *c) {
     auto l_front = this->cliets.begin();
     advance(l_front, index);
     Client *a = *l_front;
@@ -37,7 +37,7 @@ void Banca::giveCredit(int index, Credit c) {
 
 }
 
-void Banca::setDepozit(int index, Depozit d) {
+void Banca::setDepozit(int index, Depozit *d) {
     auto l_front = this->cliets.begin();
     advance(l_front, index);
     Client *a = *l_front;

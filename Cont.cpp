@@ -6,24 +6,24 @@
 
 Cont::Cont(float suma) : suma(suma) {}
 
-void Cont::addCredit(Credit c) {
-    this->credits.push_back(&c);
+void Cont::addCredit(Credit *c) {
+    this->credits.push_back(c);
 }
 
-void Cont::addDepozit(Depozit d) {
-    this->depozits.push_back(&d);
+void Cont::addDepozit(Depozit *d) {
+    this->depozits.push_back(d);
 }
 
 Credit *Cont::getCreditByIndex(int i) {
     list<Credit*>::iterator l_front = credits.begin();
-    advance(l_front, index);
+    advance(l_front, i);
     Credit *a = *l_front;
     return a;
 }
 
 Depozit *Cont::getDepozitByIndex(int i) {
     list<Depozit*>::iterator l_front = depozits.begin();
-    advance(l_front, index);
+    advance(l_front, i);
     Depozit *a = *l_front;
     return a;
 }

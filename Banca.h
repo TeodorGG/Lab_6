@@ -30,8 +30,8 @@ public :
 
     void addClient(Client *c);
 
-    void giveCredit(int index, Credit c);
-    void setDepozit(int index, Depozit d);
+    void giveCredit(int index, Credit *c);
+    void setDepozit(int index, Depozit *d);
 
     void show_clients();
 

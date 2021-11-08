@@ -20,8 +20,8 @@ private :
     list<Depozit*> depozits;
 public :
     Cont(float suma);
-    void addCredit(Credit c);
-    void addDepozit(Depozit d);
+    void addCredit(Credit *c);
+    void addDepozit(Depozit *d);
 
     Credit* getCreditByIndex(int i);
     Depozit* getDepozitByIndex(int i);
