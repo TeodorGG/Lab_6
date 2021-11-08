@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled5">
+				<Option output="/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/untitled5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled5/fast">
+				<Option output="/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/untitled5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tudordeviza/CLionProjects/untitled5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Action.cpp">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Action.h">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Banca.cpp">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Banca.h">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Client.cpp">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Client.h">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Cont.cpp">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Cont.h">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Credit.cpp">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Credit.h">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Depozit.cpp">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/Depozit.h">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/main.cpp">
+			<Option target="untitled5"/>
+		</Unit>
+		<Unit filename="/Users/tudordeviza/CLionProjects/untitled5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
